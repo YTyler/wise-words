@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  resources :quotes
+  resources :authors do
+    resources :quotes
+  end
 end
