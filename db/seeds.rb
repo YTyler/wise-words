@@ -8,7 +8,7 @@ class Seed
   def generate_countries
     100.times do |i|
       author = Author.create!(
-        name: Faker::TvShows::Seinfeld.character,
+        name: Faker::TvShows::Simpsons.character,
         house: Faker::Movies::HarryPotter.house, flag:Faker::Nation.flag,
         ssn: Faker::IDNumber.valid
       )
