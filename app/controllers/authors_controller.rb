@@ -3,6 +3,7 @@ class AuthorsController < ApplicationController
   def index
     @authors = Author.all
     json_response(@authors)
+
   end
 
   def show
